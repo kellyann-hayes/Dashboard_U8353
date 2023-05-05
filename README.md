@@ -2,17 +2,17 @@
 
 Link to app:  https://9zj30i-kellyann-hayes.shinyapps.io/Dashboard_U8353/ 
 
-This app provides a cursory look at the NYPD’s School Safety Data (available <a href https://www.nyc.gov/site/nypd/stats/reports-analysis/school-safety.page>here</a>) from 2019 to 2022. 
+This app provides a cursory look at the NYPD’s School Safety Data (available <a href= https://www.nyc.gov/site/nypd/stats/reports-analysis/school-safety.page>here</a>) from 2019 to 2022. 
 
 ## Background: The Student Safety Act
 
-(small amount of research on cops in schools, Black and Latinx students school to prison pipeline, etc, events leading up to Student Safety Act)
-
-The Student Safety Act went into effect in New York City at the start of the 2019-2020 school year, following growing criticism from communities and advocates over the role of School Safety Agents (SSA), civilian NYPD employees stationed in schools, in criminalizing student behavior and contributing to the school to prison pipeline for Black and brown youth.
+The Student Safety Act went into effect in New York City at the start of the 2019-2020 school year, following growing criticism from communities and advocates over the role of School Safety Agents (SSA) - civilian NYPD employees stationed in schools - in criminalizing student behavior and contributing to the school to prison pipeline for Black and brown youth.
  
-In addition to allowing students to file complaints with the Civilian Review Complaint Board (CCRB), the Student Safety Act mandates quarterly reporting from the NYPD on School Safety Agent (SSA) and other NYPD interaction with students on NYC school campuses. Advocates hoped that these measures would help to ensure transparency and accountability, and help New Yorkers 
+In addition to allowing students to file complaints with the Civilian Review Complaint Board (CCRB), the Student Safety Act <a href= https://www.nyclu.org/sites/default/files/student_safety_act_one_sheet.pdf>mandates</a> quarterly reporting from the NYPD on School Safety Agent (SSA) and other NYPD interaction with students on NYC school campuses. Advocates hoped that these measures would help to ensure transparency, protect the rights of students, and allow for greater oversight of policing in NYC’s schools. 
 
-In 2019, the NYCLU published a fact sheet analyzing trends in the NYPD’s “School Safety Data” from 2016 to 2019, finding troubling racial disparities. This dashboard app aims to make the data for the years since accessible for quick consumption. The visualizations made available through the dashboard do not show the full picture of the data, but due to file size restrictions further exploration was limited; future iterations of the dashboard could better synthesize the School Safety Data.
+In 2019, the NYCLU published a <a href=https://www.nyclu.org/sites/default/files/ssa_2019_full_year.pdf>fact sheet</a> analyzing trends in the NYPD’s School Safety Data from 2016 to 2019, finding troubling racial disparities. Since 2019, the number of SSAs in NYC schools has decreased by nearly 20% following the COVID-19 pandemic, and Mayor Eric Adams <a href=https://www.documentcloud.org/documents/23707274-city-eliminates-hundreds-of-vacant-school-safety-positions-after-more-than-20-percent-decline-in-safety-agent-staffing-in-citys-public-schools-over-three-years-march-2023>announced</a> in March 2023 that vacant SSA positions will be terminated to preserve the budget. But despite the decreased police presence, it’s unclear how, if at all, harmful police interactions with students have changed. 
+
+This dashboard app aims to make the data for the years since the NYCLU’s analysis accessible for quick consumption. The visualizations made available through the dashboard do not show the full picture of the data, but due to file size restrictions further exploration was limited; future iterations of the dashboard could better synthesize the School Safety Data and make available quick and digestible summary statistics. 
 
 ## Data and Methods 
 
