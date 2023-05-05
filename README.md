@@ -2,7 +2,7 @@
 
 Link to app:  https://9zj30i-kellyann-hayes.shinyapps.io/Dashboard_U8353/ 
 
-This app provides a cursory look at the NYPD’s School Safety Data (available here) from 2019 to 2022. 
+This app provides a cursory look at the NYPD’s School Safety Data (available <a href https://www.nyc.gov/site/nypd/stats/reports-analysis/school-safety.page>here</a>) from 2019 to 2022. 
 
 ## Background: The Student Safety Act
 
