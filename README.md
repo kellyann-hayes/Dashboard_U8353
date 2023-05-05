@@ -16,14 +16,14 @@ This dashboard app aims to make the data for the years since the NYCLU’s analy
 
 ## Data and Methods 
 
-From the NYPD School Safety Data, quarterly reports by precinct and by school available as Excel files, from 2019 to 2022, were used to create the visualizations in this app. School-level and precinct-level datasets, each observation is a single incident of contact with a student. After cleaning, these datasets were merged with NYC public school location and NYPD precinct shapefiles available at NYC Open Data for mapping. 
+From the NYPD School Safety Data, quarterly reports by precinct and by school available as Excel files, from 2019 to 2022, were used to create the visualizations in this app. School-level and precinct-level datasets, each observation is a single incident of contact with a student. After cleaning, these datasets were merged with <a href=https://data.cityofnewyork.us/Education/School-Point-Locations/jfju-ynrr>NYC public school location</a> and <a href=https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz>NYPD precinct</a> shapefiles available at NYC Open Data for mapping. 
 
 While data cleaning was extensive and I will not discuss here the process at length (full code is available in the repository), below I outline some considerations of note while using this app: 
 
 *School-Level School Safety Data*
 <ol>
   <li>*No Demographics*: The school-level data does not include student demographics such as race, gender, and age. Exploration of demographics must be done at the precinct level. </li>
-  <li>*Difficulties Linking Schools to Shapefiles*: School names did not include a unique identifier, and the coded values were inconsistent with the names of schools in the NYC public schools shapefile available at NYC Open Data. To match schools to their coordinate locations, first schools with “PS” or “IS” codings were extracted from both the NYPD data and the shapefile for matching. Then, schools without “PS” or “IS” codings were matched via “fuzzy merge”. Finally, 133 schools were manually matched. This still left some schools unmatched. Due to difficulties with matching the schools to their coordinates, the matched data, including the ATS_CODE code which can be matched to NYC public school shapefiles as a unique identifier, is available for download as a .csv file in the “Map” tab of the app. </li>
+  <li>*Difficulties Linking Schools to Shapefiles*: School names did not include a unique identifier, and the coded values were inconsistent with the names of schools in the NYC public schools shapefile available at NYC Open Data. To match schools to their coordinate locations, first schools with “PS” or “IS” codings were extracted from both the NYPD data and the shapefile for matching. Then, schools without “PS” or “IS” codings were matched via <a href = https://cran.r-project.org/web/packages/fedmatch/vignettes/Fuzzy-matching.html>“fuzzy merge”</a>. Finally, 133 schools were manually matched. This still left some schools unmatched. Due to difficulties with matching the schools to their coordinates, the matched data, including the ATS_CODE code which can be matched to NYC public school shapefiles as a unique identifier, is available for download as a .csv file in the “Map” tab of the app. </li>
 </ol>
 
 *Precinct-Level School Safety Data*
